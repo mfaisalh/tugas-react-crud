@@ -125,6 +125,15 @@ textarea {
   width: 100%;
 }
 
+#tombolPost:hover {
+  background-color: #1b4965;
+  color: #ffffff;
+
+}
+#tombolPost {
+  background-color: #3a889f;
+}
+
 #submit {
   background-color: #3a889f;
   color: #ffffff;
@@ -133,10 +142,15 @@ textarea {
   height: 3em;
 }
 
+#submit:hover {
+  background-color: #1b4965;
+}
+
 #deletePost {
+  color: #ffffff;
   margin: 0.25em 0em 0.25em 0em;
   width: 100%;
-  height: 2em;
+  height: 3em;
   background-color: var(--light-blue);
 }
 
